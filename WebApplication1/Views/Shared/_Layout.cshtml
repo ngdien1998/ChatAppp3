@@ -1,0 +1,16 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="~/Content/css/normalize.css">
+    <link rel="stylesheet" href="~/Content/css/style2.css">
+</head>
+<body>
+    @RenderBody()
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    <script src='~/Content/js/jquery.nicescroll.js'></script>
+    @RenderSection("scripts", required: false)
+</body>
+</html>
